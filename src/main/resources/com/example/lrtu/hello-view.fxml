@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1C1B19;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lrtu.HelloController">
+   <children>
+      <Button fx:id="file" layoutX="23.0" layoutY="41.0" mnemonicParsing="false" style="-fx-background-color: #312D2D; -fx-background-radius: 5;" text="Выбор файла" textFill="WHITE" AnchorPane.leftAnchor="23.0" AnchorPane.topAnchor="41.0">
+         <font>
+            <Font name="Montserrat Regular" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="save" layoutX="23.0" layoutY="344.0" mnemonicParsing="false" style="-fx-background-color: #312D2D; -fx-background-radius: 5;" text="Сохранить" textFill="WHITE" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="23.0">
+         <font>
+            <Font name="Montserrat Regular" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="533.0" layoutY="373.0" text="MD RUSSIA" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
+         <font>
+            <Font name="Montserrat Regular" size="9.0" />
+         </font>
+      </Label>
+      <TextField fx:id="text" layoutX="23.0" layoutY="301.0" prefHeight="26.0" prefWidth="358.0" promptText="Текст" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="73.0" AnchorPane.leftAnchor="23.0" />
+      <TextField fx:id="pololstolb" layoutX="520.0" layoutY="301.0" prefHeight="26.0" prefWidth="26.0" promptText="A" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="73.0" AnchorPane.rightAnchor="54.0" />
+      <TextField fx:id="pololctrok" layoutX="552.0" layoutY="301.0" prefHeight="26.0" prefWidth="26.0" promptText="2" style="-fx-background-color: #FFFFFF;" AnchorPane.bottomAnchor="73.0" AnchorPane.rightAnchor="23.0" />
+   </children>
+</AnchorPane>
